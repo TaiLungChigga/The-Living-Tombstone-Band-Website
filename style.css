@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Saira", sans-serif;
+}
+
+.bastard {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skullimg {
+    width: 40px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 1em 1em;
+    position: sticky;
+    top: 0
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: clamp(10px, 2.6041666667vw, 15px);
+}
+
+.nav-links0 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links0 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 5em;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-link3 a:hover {
+    color: rgb(255, 149, 84);
+    text-decoration: none;
+}
+
+.pbg {
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.image-button {
+    background: none;
+    /* Removes default gray button color */
+    border: none;
+    /* Removes default border */
+    padding: 0;
+    /* Removes default spacing */
+    cursor: pointer;
+    /* Changes cursor to a hand pointer when hovering */
+}
+
+.image-button img {
+    width: 200px;
+    /* Control the exact size of your image button */
+    height: auto;
+}
+
+.webtitle1 {
+    font-size: 70px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #ff9554, #ff2f4b);
+}
+
+.zero {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    width: 100%;
+}
+
+.wrapper0 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 100%;
+}
+
+.intro {
+    flex: 1;
+}
+
+.webtitle2 {
+    font-size: 70px;
+    color: rgb(255, 149, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.longimg {
+    width: 19.76%;
+    height: auto;
+}
+
+.tltcrew {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.tltimgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.platinum {
+    color: rgb(202, 229, 255);
+    background: linear-gradient(to left, #dd93ff, #8ac7ff);
+}
+
+.golden {
+    color: rgb(255, 242, 183);
+    background: linear-gradient(to left, #ff9554, #ffb20c);
+}
+
+.orange {
+    color: rgb(255, 149, 84);
+}
+
+.green {
+    color: rgb(33, 255, 81);
+}
+
+.red {
+    color: rgb(255, 12, 40);
+}
+
+.pink {
+    color: rgb(255, 33, 214);
+}
+
+.blue {
+    color: rgb(33, 77, 255);
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000000;
+}
+
+.webtitle3 {
+    font-size: 70px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #ff9554, #ff2f4b);
+}
+
+.merch {
+    text-decoration: none;
+}
+
+.webtitle4 {
+    font-size: 70px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #ff2f4b, #000000);
+}
+
+.shockedrust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+}
+
+.wrapper0 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 100%;
+}
+
+.webtitle5 {
+    margin: 1em;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    color: #ff9554;
+    display: flex
+}
+
+.mos {
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    background: linear-gradient(to right, #ff9554, #ff2f4b);
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.positionleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.merchsection {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 1;
+    background: linear-gradient(to right, #ff9554, #ff2f4b);
+    color: #ffffff;
+    padding: 1em 0;
+}
+
+.wor {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc {
+    flex-basis: 25%;
+    padding: 5px;
+}
+
+.whitelogo {
+    width: 10em;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    margin: 20px auto;
+}
+
+.thebottomtext {
+    text-align: center;
+}
+
+.socialicons img {
+    width: 49px;
+    margin-right: 16px;
+    padding: 8px 0;
+    cursor: pointer;
+}
